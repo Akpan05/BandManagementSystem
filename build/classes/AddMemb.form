@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="170" pref="170" max="-2" attributes="0"/>
+              <Component id="lblHeading" min="-2" pref="330" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="100" pref="100" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="130" pref="130" max="-2" attributes="0"/>
+                      <Component id="txfFn" min="-2" pref="190" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblFn" min="-2" pref="180" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+              <Component id="lblFirstNameErr" min="-2" pref="320" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="120" pref="120" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="110" pref="110" max="-2" attributes="0"/>
+                      <Component id="txfSn" min="-2" pref="190" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblSn" min="-2" pref="160" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+              <Component id="lblSurnameErr" min="-2" pref="400" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="60" pref="60" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblPn" min="-2" pref="180" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="170" pref="170" max="-2" attributes="0"/>
+                      <Component id="txfPn" min="-2" pref="190" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+              <Component id="lblPnERrr" min="-2" pref="490" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="170" pref="170" max="-2" attributes="0"/>
+              <Component id="lblAge" min="-2" pref="60" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="spnAge" min="-2" pref="70" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="110" pref="110" max="-2" attributes="0"/>
+              <Component id="lblInstument" min="-2" pref="120" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="cBInstrument" min="-2" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="120" pref="120" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblDate" min="-2" pref="160" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="110" pref="110" max="-2" attributes="0"/>
+                      <Component id="dpJD" min="-2" pref="180" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+              <Component id="lblDateErr" min="-2" pref="420" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="50" pref="50" max="-2" attributes="0"/>
+              <Component id="btnAddMember" min="-2" pref="140" max="-2" attributes="0"/>
+              <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
+              <Component id="btnBack" min="-2" pref="150" max="-2" attributes="0"/>
+              <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
+              <Component id="btnHelp" min="-2" pref="160" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="lblHeading" min="-2" pref="70" max="-2" attributes="0"/>
+              <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="txfFn" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="lblFn" min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="lblFirstNameErr" min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblSn" min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="lblSurnameErr" min="-2" max="-2" attributes="0"/>
+                  <Component id="txfSn" min="-2" pref="29" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblPn" min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="lblPnERrr" min="-2" max="-2" attributes="0"/>
+                  <Component id="txfPn" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblAge" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="spnAge" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblInstument" min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="cBInstrument" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="8" pref="8" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblDate" min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="dpJD" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="lblDateErr" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnAddMember" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="btnBack" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="btnHelp" min="-2" pref="30" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblHeading">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="    Add Member    "/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tw Cen MT Condensed Extra Bold" size="48" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="First Name:"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tw Cen MT Condensed Extra Bold" size="24" style="1"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Surname:"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tw Cen MT Condensed Extra Bold" size="24" style="1"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Phone Number:"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tw Cen MT Condensed Extra Bold" size="24" style="1"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInstument">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Instrument:"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tw Cen MT Condensed Extra Bold" size="24" style="1"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAge">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Age:"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tw Cen MT Condensed Extra Bold" size="24" style="1"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Join Date:"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tw Cen MT Condensed Extra Bold" size="24" style="1"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txfFn">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txfSn">
+    </Component>
+    <Component class="javax.swing.JSpinner" name="spnAge">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="18" maximum="40" minimum="18" numberType="java.lang.Integer" stepSize="1" type="number"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txfPn">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnAddMember">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add Member"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAddMemberActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBack">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBackActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnHelp">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Help"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHelpActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="com.github.lgooddatepicker.components.DatePicker" name="dpJD">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFirstNameErr">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="    "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSurnameErr">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="    "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPnERrr">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="    "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDateErr">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="    "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cBInstrument">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="6">
+            <StringItem index="0" value="Vocals"/>
+            <StringItem index="1" value="Drums"/>
+            <StringItem index="2" value="Electric Guitar"/>
+            <StringItem index="3" value="Bass"/>
+            <StringItem index="4" value="Keyboard"/>
+            <StringItem index="5" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>

@@ -1,0 +1,9 @@
+Help:
+
+
+How to use program:
+
+1. You will enter a home screen from which you can access each individual database.
+2. From there you can Add, Delete, Update and View records in the database.
+3. In your Update and Delete table you are able to check the record you about to delete to ensure it is the right one.
+4. This program allows for more efficient management of your band, applicants and events.
