@@ -3,7 +3,12 @@
 # 🎸 Band Management System
 
 ### Java • Object-Oriented Design • Database Architecture • NLP Integration
+Requirements to run:
+Java (JDK 23 / Java SE 8+)
 
+NetBeans IDE 21
+
+Microsoft Access 2019
 
 ## Overview
 
